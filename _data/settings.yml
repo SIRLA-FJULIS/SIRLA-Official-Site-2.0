@@ -1,17 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
+title: SIRLA
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: zero.sirla.hero@email.com
+github: https://github.com/SIRLA-FJULIS 
+address: 新北市新莊區中正路510號
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Blog, link: '/blog/'}
-- {name: Portfolio, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+- {name: 關於我們, link: '/about/'}
+- {name: 課程資訊, link: '/'}
+- {name: 部落格, link: '/blog/'}
+- {name: 作品集, link: '/portfolio/'}
 
 
 #-------------------------------
@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: SIRLA
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -289,5 +289,4 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-title: 聯絡我們
