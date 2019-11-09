@@ -9,7 +9,7 @@ facebook: https://www.facebook.com/sirla.fjulis
 
 menu:
 - {name: 關於我們, link: '/about/'}
-- {name: 課程資訊, link: '/'}
+- {name: 課程資訊, link: '/courses/'}
 - {name: 部落格, link: '/blog/'}
 - {name: 作品集, link: '/portfolio/'}
 
