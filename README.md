@@ -9,7 +9,8 @@
 * 網站規劃與需求分析: [叔叔](https://github.com/cchensm)
 
 ## 在local端執行
-* 安裝ruby以及bundler
+* 安裝ruby
+* 安裝bundler以及jekyll
     ```
     gem install bundler jekyll
     ```
