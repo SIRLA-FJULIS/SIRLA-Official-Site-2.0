@@ -36,6 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: SIRLA
+  hero-sub-title: Science of Information Research and Learning Association
 
 social:
 - {icon: "ti-facebook", link: "#"}
