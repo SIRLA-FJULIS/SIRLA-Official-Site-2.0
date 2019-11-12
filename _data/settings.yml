@@ -48,14 +48,6 @@ social:
 #-------------------------------
 # About (Section and Page)
 
-# About Section
-blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-blurb-btn-link: '/about'
-blurb-btn-name: know more
-
-
 # About Page
 
 # Work Process Section
@@ -257,39 +249,7 @@ testimonial-items:
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
-#-------------------------------
-# Client Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
