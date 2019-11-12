@@ -5,7 +5,7 @@
 ## Created from [kross template](https://github.com/themefisher/kross-jekyll-portfolio-template)
 
 ## 製作人員
-* 網站製作: [土豆](https://github.com/bluebell3310/)、[叔叔](https://github.com/cchensm)
+* 網站製作: [土豆](https://github.com/netjagaimo/)、[叔叔](https://github.com/cchensm)
 * 網站規劃與需求分析: [叔叔](https://github.com/cchensm)
 
 ## 在local端執行
