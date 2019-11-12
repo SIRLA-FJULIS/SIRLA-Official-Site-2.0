@@ -4,16 +4,24 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">社員介紹</h2>
+        <h2 class="section-title">成員介紹</h2>
       </div>
       {% for team-member in site.data.settings.team %}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
-          <img src="{{ site.baseurl }}/{{ team-member.image }}" class="card-img-top rounded-circle">
+            <img src="{{ site.baseurl }}/{{ team-member.image }}" class="card-img-top rounded-circle img-w5">
           <div class="card-body">
             <h4 class="card-title">{{ team-member.title }}</h4>
-            <p class="text-light font-secondary">{{ team-member.designation }}</p>
+            <h5 class="text-light font-secondary">{{ team-member.designation }}</h5>
             <p class="text-light font-secondary">{{ team-member.description }}</p>
+            <div class="text-center">
+              <a href="{{ site.data.settings.github }}" class="btn btn-social btn-primary">
+                <i class="ti-github"></i>
+              </a>
+              <a href="{{ site.data.settings.github }}" class="btn btn-social btn-primary">
+                <i class="ti-user"></i>
+              </a>
+            </div>
 
           </div>
         </div>

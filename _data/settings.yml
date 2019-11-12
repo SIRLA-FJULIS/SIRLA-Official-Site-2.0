@@ -60,6 +60,10 @@ blurb-btn-name: know more
 
 # Work Process Section
 work-process:
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -67,8 +71,7 @@ work-process:
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
- 
+  
 
 # My Team Section
 team:
@@ -76,7 +79,8 @@ team:
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
     description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-    
+    github : "https://github.com/SIRLA-FJULIS"
+
   - title : "Julias Carlie"
     image : "assets/images/team/member-2.png"
     designation : "Web Developer"
