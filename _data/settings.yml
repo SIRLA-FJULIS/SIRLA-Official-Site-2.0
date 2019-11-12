@@ -68,24 +68,24 @@ work-process:
     icon : "assets/images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+ 
 
 # My Team Section
 team:
   - title : "Jack Schenziwe"
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
     
   - title : "Julias Carlie"
     image : "assets/images/team/member-2.png"
     designation : "Web Developer"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
     
   - title : "John Doe"
     image : "assets/images/team/member-3.png"
     designation : "Designer"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
 
 
 #-------------------------------
