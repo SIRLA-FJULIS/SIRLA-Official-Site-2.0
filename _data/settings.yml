@@ -77,12 +77,13 @@ team:
     image : "assets/images/team/member-2.png"
     designation : "Web Developer"
     description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-    
+    github : "https://github.com/SIRLA-FJULIS"
+
   - title : "John Doe"
     image : "assets/images/team/member-3.png"
     designation : "Designer"
     description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-
+    github : "https://github.com/SIRLA-FJULIS"
 
 #-------------------------------
 # Skills Section
@@ -139,10 +140,7 @@ services:
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
-
-
-
-#-------------------------------
+# --------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
@@ -201,32 +199,32 @@ portfolio-items:
       - type: "design"
       - type: "branding"
       
-  - image : "assets/images/portfolio/item-8.png"
+ 
+  
+#-------------------------------
+# Course (Page)
+
+# Course Page
+course-year:
+  - academic: "108學年度"
     url: "#"
-    portfolio-type:
-      - type: "illustration"
+  - academic: "107學年度"
+    url: "#"  
+    
+course-items:
+  - name: 對外課程
+    image : "assets/images/portfolio/item-3.png"
+    url: "https://github.com/SIRLA-FJULIS"
+    
+  - name: 寒假workshop
+    image : "assets/images/portfolio/item-2.png"
+    url: "#"
       
-  - image : "assets/images/portfolio/item-5.png"
+  - name: 暑假enlighten
+    image : "assets/images/portfolio/item-3.png"
     url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+    
+ 
 
 
 #-------------------------------

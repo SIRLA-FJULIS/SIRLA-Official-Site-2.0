@@ -2,31 +2,34 @@
 layout: page
 title: 課程資訊
 ---
-<!-- portfolio -->
+<!-- courses -->
 <section class="section">
   <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
-          <label class="btn btn-sm btn-primary active">
-            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
-          </label>
-          {% for label in site.data.settings.portfolio-label %}
-          <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
-          </label>
-          {% endfor %}
-        </div>
+    <div class="row justify-content-end mb-5 mr-1">
+      <div class=" dropdown ">
+        <button class="btn-sm  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              歷年課程資訊
+        </button>   
+          <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuButton">
+            {% for year in site.data.settings.course-year %}
+            <a class="dropdown-item" href="#">{{year.academic}}</a>
+
+            {% endfor %}
+          </div>
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
+      {% for item in site.data.settings.course-items %}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" >
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img class="img-fluid rounded w-100 d-block" src="{{ site.baseurl }}/{{ item.image }}" alt="course-image" >
+          <div class="card-body text-center">
+            <h4 class="card-title">{{item.name}}</h4>
+            <p class="cars-text">description</p>    
+          </div>
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+              <a class="btn btn-light btn-sm" href="{{ item.url }}">查看課程</a>
             </div>
           </div>
         </div>
@@ -35,4 +38,4 @@ title: 課程資訊
     </div>
   </div>
 </section>
-<!-- /portfolio -->
+<!-- /courses -->
