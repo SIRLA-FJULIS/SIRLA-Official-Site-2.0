@@ -1,0 +1,20 @@
+{% if site.data.settings.about %}
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-md-12 text-center">
+        <h2 class="section-title">關於我們</h2>
+      </div>
+      {% for about in site.data.settings.about %}
+      <div class="col-lg-3 col-md-4 mb-4 mx-3 mx-md-0 mb-md-0 text-center">
+        <img src="{{ about.image }}" alt="about icon">
+        <h4 class="mt-3">{{ about.title }}</h4>
+        <p>{{ about.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /about -->
+{% endif %}

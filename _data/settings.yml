@@ -8,10 +8,10 @@ github: https://github.com/SIRLA-FJULIS
 facebook: https://www.facebook.com/sirla.fjulis
 
 menu:
-- {name: 關於我們, link: '/about/'}
-- {name: 課程資訊, link: '/courses/'}
-- {name: 部落格, link: '/blog/'}
-- {name: 作品集, link: '/portfolio/'}
+- {name: 關於我們, link: '/about'}
+- {name: 課程資訊, link: '/courses'}
+- {name: 部落格, link: '/blog'}
+- {name: 作品集, link: '/portfolio'}
 
 
 #-------------------------------
@@ -44,102 +44,41 @@ social:
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
 
-
 #-------------------------------
-# About (Section and Page)
+# About Section
 
-# About Page
+about:
+  - title: "關於 A"
+    image: "http://fakeimg.pl/200x150"
+    description: "必須要有這是說法，商標讀書福建學院，電池到我以後合理哪個，創建大約責任文明，這裡熱點國產，開通中心就會之處能量經過一年業主工程師，定位足球就不所有人異常身邊性感，材料是我做好精華吃了合適該公司比較。"
 
-# Work Process Section
-work-process:
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "關於 B"
+    image: "http://fakeimg.pl/200x150"
+    description: "不可強化郵遞區號，榮譽我也配件新竹帳號可惜保障球員一路存儲採用培訓是因為，人生小學電器裝修廣場私服高速笑容怎麼樣樹林要求你怎麼均為同樣，區別人力上路沒有任何或者搜尋引擎評價增加，接觸共有，時間桃園我把，世紀。"
   
-
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-    github : "https://github.com/SIRLA-FJULIS"
-
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-    github : "https://github.com/SIRLA-FJULIS"
-
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
-    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
-    github : "https://github.com/SIRLA-FJULIS"
-
-#-------------------------------
-# Skills Section
-
-skills-title: Skills
-skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+  - title: "關於 C"
+    image: "http://fakeimg.pl/200x150"
+    description: "休閒對付女朋友，但是晶片高考三大見到點頭實行，之前只不過簡體蒐集貫徹雲林，詳細內容確認，聯盟寫作顯示你是成員資產試試成功內心專欄產權專題望着措施書庫，心裡之類外掛種子皇帝不行普通主營郵箱，郵件。"
 
 
 #-------------------------------
-# Exprerience Section
+# Course Info Section
 
-experience-title: Experience
-experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+course_info:
+  - title: "課程 A"
+    description: "本來有限責任公司，儘量特價充分離線等人太麻里，廣告著名肯定，記錄社會主義興奮也沒接收瀏覽次數相比日月潭星座繼續，股市機票品種動作隨便如同住宅一句增長接觸知名註冊時間，本論壇積分創建評估不起我是，味道。"
 
-
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
-
+  - title: "課程 B"
+    description: "一大新型垃圾出版社有機會是一個，都要春節經濟和他樂隊，言論看見經常添加網際網路說道你可以創造過去能量這裡收費，運輸讓我訪問重要體現營銷交流請在熱線優惠，自我協會有限公司，集體你沒有一面和我後悔，很好。"
+  
+  - title: "課程 C"
+    description: "迅速多少這場只見廣大根據網易業務，低價採用限制動畫說道，校長模組攻擊汽車沒事將在重大監管任何人，自主小學，還沒諮詢我的心規格學習又有不大表現升級寂寞任務結婚蘋果國際，意識身體，放心讀書多種，前後版本。"
 
 #-------------------------------
-# Services Section
+# News Section
 
-services-title: Services
-services:
-- {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
+news-title: 最新消息
+
 # --------------------------
 # Portfolio (Section and Page)
 
@@ -198,9 +137,52 @@ portfolio-items:
     portfolio-type:
       - type: "design"
       - type: "branding"
-      
- 
+
+#-------------------------------
+# Contact Section
+
+contact-title: 聯絡我們
+
+#-------------------------------
+# About (Section and Page)
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   
+
+# My Team Section
+team:
+  - title : "Jack Schenziwe"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
+    github : "https://github.com/SIRLA-FJULIS"
+
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
+    github : "https://github.com/SIRLA-FJULIS"
+
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
+    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, amet."
+    github : "https://github.com/SIRLA-FJULIS"
+
 #-------------------------------
 # Course (Page)
 
@@ -223,33 +205,3 @@ course-items:
   - name: 暑假enlighten
     image : "assets/images/portfolio/item-3.png"
     url: "#"
-    
- 
-
-
-#-------------------------------
-# Testimonials Section
-
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-
-
-
-#-------------------------------
-# Contact Section
-
-contact-title: 聯絡我們
